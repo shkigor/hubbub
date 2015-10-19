@@ -6,8 +6,7 @@ class User {
     Date dateCreated
 
     static hasOne = [profile: Profile]
-//    static hasMany = [ posts: Post, tags: Tag, following: User ]
-    static hasMany = [ posts: Post]
+    static hasMany = [ posts: Post, tags: Tag, following: User ]
 
     static constraints = {
         loginId size: 3..20, unique: true, blank: false
@@ -18,8 +17,8 @@ class User {
         profile nullable: true
     }
 
-//    static mapping = {
-//        posts sort: "dateCreated", order: "desc"
-//    }
+    static mapping = {
+        posts sort: "dateCreated", order: "desc"
+    }
 
 }
