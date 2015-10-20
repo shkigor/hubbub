@@ -6,7 +6,7 @@ dataSource {
 //    password = ""
     driverClassName = "com.mysql.jdbc.Driver"
     username = "root"
-    password = "mysql"
+    password = "miramax"
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -24,6 +24,7 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
 //            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             url = "jdbc:mysql://localhost:3306/hubbub?useUnicode=true&characterEncoding=utf8"
+            logSql = true
         }
     }
     test {
