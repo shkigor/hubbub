@@ -2,3 +2,4 @@
 --Output from Ensure posts linked to a user can be retrieved--
 --Output from Exercise tagging several posts with various tags--
 --Output from Ensure a user can follow other users--
+--Output from we can’t call Tag.addToPosts--

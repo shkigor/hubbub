@@ -1,19 +1,41 @@
 Testsuite: com.grailsinaction.PostIntegrationSpec
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,305 sec
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,577 sec
 ------------- Standard Output ---------------
 --Output from Adding posts to user links post to user--
 --Output from Ensure posts linked to a user can be retrieved--
 --Output from Exercise tagging several posts with various tags--
 --Output from Ensure a user can follow other users--
+--Output from we can’t call Tag.addToPosts--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from Adding posts to user links post to user--
 --Output from Ensure posts linked to a user can be retrieved--
 --Output from Exercise tagging several posts with various tags--
 --Output from Ensure a user can follow other users--
+--Output from we can’t call Tag.addToPosts--
 ------------- ---------------- ---------------
 
-Testcase: Adding posts to user links post to user took 0,06 sec
-Testcase: Ensure posts linked to a user can be retrieved took 0,086 sec
-Testcase: Exercise tagging several posts with various tags took 0,089 sec
-Testcase: Ensure a user can follow other users took 0,065 sec
+Testcase: Adding posts to user links post to user took 0,113 sec
+Testcase: Ensure posts linked to a user can be retrieved took 0,074 sec
+Testcase: Exercise tagging several posts with various tags took 0,149 sec
+Testcase: Ensure a user can follow other users took 0,109 sec
+Testcase: we can’t call Tag.addToPosts took 0,088 sec
+	FAILED
+Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+

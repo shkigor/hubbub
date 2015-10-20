@@ -1,0 +1,254 @@
+2015-10-20 12:32:17,262 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 12:32:17,297 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 12:32:17,300 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 12:32:17,301 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 12:32:17,327 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 12:32:17,327 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:89)
+2015-10-20 13:31:17,486 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:31:17,488 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:31:17,491 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:31:17,492 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:31:17,497 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:31:17,497 [main] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'com.grailsinaction.Tag' on field 'user': rejected value [null]; codes [com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.error.user,com.grailsinaction.Tag.user.nullable.error.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable.error,tag.user.nullable.error.com.grailsinaction.Tag.user,tag.user.nullable.error.user,tag.user.nullable.error.com.grailsinaction.User,tag.user.nullable.error,com.grailsinaction.Tag.user.nullable.com.grailsinaction.Tag.user,com.grailsinaction.Tag.user.nullable.user,com.grailsinaction.Tag.user.nullable.com.grailsinaction.User,com.grailsinaction.Tag.user.nullable,tag.user.nullable.com.grailsinaction.Tag.user,tag.user.nullable.user,tag.user.nullable.com.grailsinaction.User,tag.user.nullable,nullable.com.grailsinaction.Tag.user,nullable.user,nullable.com.grailsinaction.User,nullable]; arguments [user,class com.grailsinaction.Tag]; default message [Поле [{0}] класса [{1}] не может иметь значение null]
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:32:37,329 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at org.springframework.orm.hibernate4.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.convertHibernateAccessException(GrailsHibernateTemplate.java:606)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.doExecute(GrailsHibernateTemplate.java:192)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.execute(GrailsHibernateTemplate.java:132)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.SavePersistentMethod.performSave(SavePersistentMethod.java:56)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:215)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at org.hibernate.action.internal.UnresolvedEntityInsertActions.checkNoUnresolvedActionsAfterOperation(UnresolvedEntityInsertActions.java:137)
+	at org.hibernate.engine.spi.ActionQueue.checkNoUnresolvedActionsAfterOperation(ActionQueue.java:320)
+	at org.hibernate.internal.SessionImpl.checkNoUnresolvedActionsAfterOperation(SessionImpl.java:658)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:686)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.SavePersistentMethod$1.doInHibernate(SavePersistentMethod.java:58)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.doExecute(GrailsHibernateTemplate.java:188)
+	... 6 more
+2015-10-20 13:32:37,331 [main] ERROR StackTrace  - Full Stack Trace:
+org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at org.hibernate.action.internal.UnresolvedEntityInsertActions.checkNoUnresolvedActionsAfterOperation(UnresolvedEntityInsertActions.java:137)
+	at org.hibernate.engine.spi.ActionQueue.checkNoUnresolvedActionsAfterOperation(ActionQueue.java:320)
+	at org.hibernate.internal.SessionImpl.checkNoUnresolvedActionsAfterOperation(SessionImpl.java:658)
+	at org.hibernate.internal.SessionImpl.fireSaveOrUpdate(SessionImpl.java:686)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:676)
+	at org.hibernate.internal.SessionImpl.saveOrUpdate(SessionImpl.java:671)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.SavePersistentMethod$1.doInHibernate(SavePersistentMethod.java:58)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.doExecute(GrailsHibernateTemplate.java:188)
+	at org.codehaus.groovy.grails.orm.hibernate.GrailsHibernateTemplate.execute(GrailsHibernateTemplate.java:132)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.SavePersistentMethod.performSave(SavePersistentMethod.java:56)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:215)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:32:37,331 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	... 1 more
+2015-10-20 13:32:37,332 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	... 1 more
+2015-10-20 13:32:37,333 [main] ERROR StackTrace  - Full Stack Trace:
+org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:32:37,333 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	... 1 more
+2015-10-20 13:32:37,338 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	... 1 more
+2015-10-20 13:32:37,338 [main] ERROR StackTrace  - Full Stack Trace:
+org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+2015-10-20 13:32:37,338 [main] ERROR StackTrace  - Full Stack Trace:
+org.springframework.dao.InvalidDataAccessApiUsageException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User; nested exception is org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:90)
+Caused by: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.grailsinaction.Tag.user -> com.grailsinaction.User
+	... 1 more
+2015-10-20 13:34:00,277 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 13:34:00,282 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 13:34:00,284 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 13:34:00,284 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 13:34:00,288 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 13:34:00,289 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+post == Post.get(post.id)
+|    |       |   |    |
+|    false   null|    null
+|                com.grailsinaction.Post : (unsaved)
+com.grailsinaction.Post : (unsaved)
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:97)
+2015-10-20 14:45:44,536 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+2015-10-20 14:45:44,541 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+2015-10-20 14:45:44,542 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+2015-10-20 14:45:44,542 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+2015-10-20 14:45:44,547 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+2015-10-20 14:45:44,547 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+tagMy.posts.collect {it.content} == ['Igorn post']
+|     |     |                    |
+|     |     [Igor post]          false
+|     [com.grailsinaction.Post : 41]
+com.grailsinaction.Tag : 30
+
+	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)

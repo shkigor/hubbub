@@ -82,4 +82,21 @@ class PostIntegrationSpec extends IntegrationSpec {
         2 == joe.following.size()
         1 == jill.following.size()
     }
+
+    def "we can’t call Tag.addToPosts"() {
+        given: "define new Tag"
+        def user = new User(loginId: 'igor', password: 'password').save()
+        def tagMy = new Tag(user: user, name: 'MY')
+        tagMy.save(failOnError: true)
+        def post = new Post(user: user, content: "Igor post")
+        post.save(failOnError: true)
+
+        when: "The tag add to post"
+        tagMy.addToPosts(post)
+
+        then: "The Post don't save"
+        post == Post.get(post.id)
+        tagMy.posts.collect {it.content} == ['Igor post']
+
+    }
 }

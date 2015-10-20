@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="igor-Inspiron-5423" name="com.grailsinaction.UserIntegrationSpec" skipped="0" tests="5" time="2.075" timestamp="2015-10-19T20:54:45">
+<testsuite errors="0" failures="0" hostname="C9X-110-1223L" name="com.grailsinaction.UserIntegrationSpec" skipped="0" tests="5" time="0.821" timestamp="2015-10-20T11:45:43">
   <properties />
-  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="1.745" />
-  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.064" />
-  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.125" />
-  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.055" />
-  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.056" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.487" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.117" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.091" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.044" />
+  <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.044" />
   <system-out><![CDATA[--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
