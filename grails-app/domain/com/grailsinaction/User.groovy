@@ -5,6 +5,10 @@ class User {
     String password
     Date dateCreated
 
+    String toString() {
+        "$loginId"
+    }
+
     static hasOne = [profile: Profile]
     static hasMany = [ posts: Post, tags: Tag, following: User ]
 

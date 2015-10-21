@@ -15,11 +15,11 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        10
+                        15
                         tests
                     
                         with
-                        one failure
+                        one error
                         .
                     </p>
 </div>
@@ -43,7 +43,7 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite failure">
+<div class="testsuite error">
 <div class="header">
 <h2>PostIntegrationSpec</h2>
 <h3>
@@ -52,7 +52,7 @@
                         tests
                     
                         with
-                        one failure
+                        one error
                         .
                     </h3>
 </div>
@@ -61,7 +61,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Adding posts to user links post to user</b>
 </p>
-<p class="summary">Executed in 0.113 seconds.</p>
+<p class="summary">Executed in 0.144 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -71,7 +71,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Ensure posts linked to a user can be retrieved</b>
 </p>
-<p class="summary">Executed in 0.074 seconds.</p>
+<p class="summary">Executed in 0.109 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -81,7 +81,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Exercise tagging several posts with various tags</b>
 </p>
-<p class="summary">Executed in 0.149 seconds.</p>
+<p class="summary">Executed in 0.067 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -91,39 +91,31 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Ensure a user can follow other users</b>
 </p>
-<p class="summary">Executed in 0.109 seconds.</p>
+<p class="summary">Executed in 0.065 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix failure grid_8 alpha omega" data-name="we can&rsquo;t call Tag.addToPosts">
+<div class="testcase clearfix error grid_8 alpha omega" data-name="we can&rsquo;t call Tag.addToPosts">
 <div class="grid_3 alpha">
 <p>
-<span class="icon failure"></span><b class="testname message failure">we can&rsquo;t call Tag.addToPosts</b>
+<span class="icon error"></span><b class="testname message error">we can&rsquo;t call Tag.addToPosts</b>
 </p>
-<p class="summary">Executed in 0.128 seconds.</p>
+<p class="summary">Executed in 0.164 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
 <p>
-<b class="message">Condition not satisfied:
-
-tagMy.posts.collect {it.content} == ['Igorn post']
-|     |     |                    |
-|     |     [Igor post]          false
-|     [com.grailsinaction.Post : 41]
-com.grailsinaction.Tag : 30
-</b>
+<b class="message">com/grailsinaction/PostIntegrationSpec$__spock_feature_1_4_closure2</b>
 </p>
-<pre>junit.framework.AssertionFailedError: Condition not satisfied:
-
-tagMy.posts.collect {it.content} == ['Igorn post']
-|     |     |                    |
-|     |     [Igor post]          false
-|     [com.grailsinaction.Post : 41]
-com.grailsinaction.Tag : 30
-
+<pre>java.lang.NoClassDefFoundError: com/grailsinaction/PostIntegrationSpec$__spock_feature_1_4_closure2
 	at com.grailsinaction.PostIntegrationSpec.we can&rsquo;t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
+Caused by: java.lang.ClassNotFoundException: com.grailsinaction.PostIntegrationSpec$__spock_feature_1_4_closure2
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 </pre>
 </div>
 </div>
@@ -153,6 +145,89 @@ com.grailsinaction.Tag : 30
 </div>
 <div class="testsuite success">
 <div class="header">
+<h2>QueryIntegrationSpec</h2>
+<h3>
+                        Executed
+                        5
+                        tests
+                    
+                        without a single error or failure!
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Simple property comparison">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Simple property comparison</b>
+</p>
+<p class="summary">Executed in 0.377 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Multiple criteria">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Multiple criteria</b>
+</p>
+<p class="summary">Executed in 0.055 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Query on association">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Query on association</b>
+</p>
+<p class="summary">Executed in 0.145 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Query against a range value">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Query against a range value</b>
+</p>
+<p class="summary">Executed in 0.061 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Retrieve a single instance">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Retrieve a single instance</b>
+</p>
+<p class="summary">Executed in 0.028 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from Simple property comparison--
+--Output from Multiple criteria--
+--Output from Query on association--
+--Output from Query against a range value--
+--Output from Retrieve a single instance--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from Simple property comparison--
+--Output from Multiple criteria--
+--Output from Query on association--
+--Output from Query against a range value--
+--Output from Retrieve a single instance--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite success">
+<div class="header">
 <h2>UserIntegrationSpec</h2>
 <h3>
                         Executed
@@ -167,7 +242,7 @@ com.grailsinaction.Tag : 30
 <p>
 <span class="icon success"></span><b class="testname message success">Saving our first user to the database</b>
 </p>
-<p class="summary">Executed in 0.487 seconds.</p>
+<p class="summary">Executed in 1.035 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -177,7 +252,7 @@ com.grailsinaction.Tag : 30
 <p>
 <span class="icon success"></span><b class="testname message success">Updating a saved user changes its properties</b>
 </p>
-<p class="summary">Executed in 0.117 seconds.</p>
+<p class="summary">Executed in 0.063 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -187,7 +262,7 @@ com.grailsinaction.Tag : 30
 <p>
 <span class="icon success"></span><b class="testname message success">Deleting an existing user removes it from the database</b>
 </p>
-<p class="summary">Executed in 0.091 seconds.</p>
+<p class="summary">Executed in 0.178 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -197,7 +272,7 @@ com.grailsinaction.Tag : 30
 <p>
 <span class="icon success"></span><b class="testname message success">Saving a user with invalid properties causes an error</b>
 </p>
-<p class="summary">Executed in 0.044 seconds.</p>
+<p class="summary">Executed in 0.088 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -207,7 +282,7 @@ com.grailsinaction.Tag : 30
 <p>
 <span class="icon success"></span><b class="testname message success">Recovering from a failed save by fixing invalid properties</b>
 </p>
-<p class="summary">Executed in 0.044 seconds.</p>
+<p class="summary">Executed in 0.056 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>

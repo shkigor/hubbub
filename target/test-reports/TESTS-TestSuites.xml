@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="C9X-110-1223L" id="0" name="PostIntegrationSpec" package="com.grailsinaction" skipped="0" tests="5" time="0.577" timestamp="2015-10-20T11:45:44">
+  <testsuite errors="1" failures="0" hostname="igor-Inspiron-5423" id="0" name="PostIntegrationSpec" package="com.grailsinaction" skipped="0" tests="5" time="0.554" timestamp="2015-10-21T19:37:49">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="0.113" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="0.144" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.074" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.109" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.149" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.067" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure a user can follow other users" time="0.109" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure a user can follow other users" time="0.065" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="we can’t call Tag.addToPosts" time="0.128">
-          <failure message="Condition not satisfied:&#xa;&#xa;tagMy.posts.collect {it.content} == [&apos;Igorn post&apos;]&#xa;|     |     |                    |&#xa;|     |     [Igor post]          false&#xa;|     [com.grailsinaction.Post : 41]&#xa;com.grailsinaction.Tag : 30&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
-
-tagMy.posts.collect {it.content} == [&apos;Igorn post&apos;]
-|     |     |                    |
-|     |     [Igor post]          false
-|     [com.grailsinaction.Post : 41]
-com.grailsinaction.Tag : 30
-
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="we can’t call Tag.addToPosts" time="0.164">
+          <error message="com/grailsinaction/PostIntegrationSpec$__spock_feature_1_4_closure2" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/grailsinaction/PostIntegrationSpec$__spock_feature_1_4_closure2
 	at com.grailsinaction.PostIntegrationSpec.we can’t call Tag.addToPosts(PostIntegrationSpec.groovy:99)
-</failure>
+Caused by: java.lang.ClassNotFoundException: com.grailsinaction.PostIntegrationSpec$__spock_feature_1_4_closure2
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
 
       </testcase>
 
@@ -40,18 +39,46 @@ com.grailsinaction.Tag : 30
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="C9X-110-1223L" id="1" name="UserIntegrationSpec" package="com.grailsinaction" skipped="0" tests="5" time="0.821" timestamp="2015-10-20T11:45:43">
+  <testsuite errors="0" failures="0" hostname="igor-Inspiron-5423" id="1" name="QueryIntegrationSpec" package="com.grailsinaction" skipped="0" tests="5" time="0.682" timestamp="2015-10-21T19:37:48">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.487" />
+      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Simple property comparison" time="0.377" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.117" />
+      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Multiple criteria" time="0.055" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.091" />
+      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Query on association" time="0.145" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.044" />
+      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Query against a range value" time="0.061" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.044" />
+      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Retrieve a single instance" time="0.028" />
+
+      <system-out><![CDATA[--Output from Simple property comparison--
+--Output from Multiple criteria--
+--Output from Query on association--
+--Output from Query against a range value--
+--Output from Retrieve a single instance--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Simple property comparison--
+--Output from Multiple criteria--
+--Output from Query on association--
+--Output from Query against a range value--
+--Output from Retrieve a single instance--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="igor-Inspiron-5423" id="2" name="UserIntegrationSpec" package="com.grailsinaction" skipped="0" tests="5" time="1.475" timestamp="2015-10-21T19:37:46">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="1.035" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.063" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.178" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.088" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.056" />
 
       <system-out><![CDATA[--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
