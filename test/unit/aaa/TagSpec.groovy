@@ -1,13 +1,14 @@
-package com.grailsinaction
+package aaa
 
+import com.grailsinaction.Tag
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
-@TestFor(User)
-class UserSpec extends Specification {
+@TestFor(Tag)
+class TagSpec extends Specification {
 
     def setup() {
     }
