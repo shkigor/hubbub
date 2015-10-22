@@ -1,14 +1,13 @@
-package aaa
+package com.grailsinaction
 
-import com.grailsinaction.TagController
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(TagController)
-class TagControllerSpec extends Specification {
+@TestFor(ProfileController)
+class ProfileControllerSpec extends Specification {
 
     def setup() {
     }

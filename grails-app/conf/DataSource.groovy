@@ -33,8 +33,8 @@ environments {
     test {
         dataSource {
             dbCreate = "update"
-//            url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://localhost:3306/hubbub?useUnicode=true&characterEncoding=utf8"
+            url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=TRUE"
+//            url = "jdbc:mysql://localhost:3306/hubbub?useUnicode=true&characterEncoding=utf8"
         }
     }
     production {

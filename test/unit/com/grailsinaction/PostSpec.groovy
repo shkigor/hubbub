@@ -1,6 +1,5 @@
-package aaa
+package com.grailsinaction
 
-import com.grailsinaction.Post
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
