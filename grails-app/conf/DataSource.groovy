@@ -16,6 +16,8 @@ hibernate {
     cache.region.factory_class = 'org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory' // Hibernate 4
     singleSession = true // configure OSIV singleSession mode
     flush.mode = 'manual' // OSIV session flush mode outside of transactional context
+    format_sql = true
+    use_sql_comments = true
 }
 
 // environment specific settings
@@ -25,7 +27,7 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
 //            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             url = "jdbc:mysql://localhost:3306/hubbub?useUnicode=true&characterEncoding=utf8"
-            logSql = true
+//            logSql = true
         }
     }
     test {
