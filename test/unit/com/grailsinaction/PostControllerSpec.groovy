@@ -3,6 +3,7 @@ package com.grailsinaction
 import grails.test.mixin.TestFor
 import grails.test.mixin.Mock
 import spock.lang.Specification
+import spock.lang.Unroll
 
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
@@ -46,5 +47,62 @@ class PostControllerSpec extends Specification {
 
         then: "a 404 is sent to the browser"
         response.status == 404
+    }
+
+    def "Adding a valid new post to the timeline"() {
+        given: "A user with posts in the db"
+        User chuck = new User(
+                loginId: "chuck_norris",
+                password: "password").save(failOnError: true)
+
+        and: "A loginId parameter"
+        params.id = chuck.loginId
+
+        and: "Some content for the post"
+        params.content = "Chuck Norris can unit test entire applications with a single assert."
+
+        when: "addPost is invoked"
+        def model = controller.addPost()
+
+        then: "our flash message and redirect confirms the success"
+        flash.message == "Successfully created Post"
+        response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+        Post.countByUser(chuck) == 1
+    }
+
+    def "Adding an invalid new post to the timeline"() {
+        given: "A user with posts in the db"
+        User chuck = new User(loginId: "chuck_norris", password: "password").save(failOnError: true)
+
+        and: "A loginId parameter"
+        params.id = chuck.loginId
+
+        and: "Some content for the post"
+        params.content = null
+
+        when: "addPost is invoked"
+        def model = controller.addPost()
+
+        then: "our flash message and redirect confirms the success"
+        flash.message == "Invalid or empty post"
+        response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+        Post.countByUser(chuck) == 0
+    }
+
+    @Unroll
+    def "Testing id of #suppliedId redirects to #expectedUrl"() {
+        given:
+        params.id = suppliedId
+
+        when: "Controller is invoked"
+        controller.home()
+
+        then:
+        response.redirectedUrl == expectedUrl
+
+        where:
+        suppliedId  |   expectedUrl
+        'joe_cool'  |   '/post/timeline/joe_cool'
+        null        |   '/post/timeline/chuck_norris'
     }
 }
