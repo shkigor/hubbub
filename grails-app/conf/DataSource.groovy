@@ -7,7 +7,7 @@ dataSource {
     driverClassName = "com.mysql.jdbc.Driver"
     dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
     username = "root"
-    password = "mysql"
+    password = "miramax"
 }
 hibernate {
     cache.use_second_level_cache = true
